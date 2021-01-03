@@ -12,7 +12,6 @@ body{
     transform: translate(-50%,-50%);
     text-align: center;
     border-radius: 20px;
-
 }
 
 p{
@@ -40,7 +39,7 @@ p{
     width: 200px;
 }
 
-a{
+a.forget{
     margin:5px;
     padding: 10px;
 }
@@ -57,4 +56,36 @@ a{
 }
 .btn:hover{
     background-color: chartreuse;
+    color: rgb(1, 69, 124);
+}
+
+a.forget{
+    text-decoration: none;
+    color: #dd8511;
+    padding: 4px 4px;
+}
+
+a.forget:hover{
+    text-decoration: underline;
+    font-size: 1.01em;
+}
+
+.new{
+    font-size: 30px;
+    text-align: right;
+    color: blueviolet;
+}
+a.signin{
+    display: block;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    text-decoration: none;
+    text-align: right;
+    color: rgb(231, 230, 245);
+    position: relative;
+    top: -15px;
+}
+a.signin:hover{
+    font-size: 1.03em;
+    text-decoration: underline;
 }
