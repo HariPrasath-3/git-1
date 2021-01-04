@@ -9,19 +9,18 @@ body{
 }
 
 .avatar{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     position: absolute;
     transform: translate(-50%,-70%);
-
 }
 
 .box{
     background:rgba(0, 0 ,0 ,0.5);
     color: #ffffff;
     width: 350px;
-    height: 300px;
+    height: 350px;
     position: absolute;
     top: 30%;
     left: 40%;
@@ -43,12 +42,13 @@ p{
     width: 150px;
     background: none;
     text-align: center;
-    border:  #0b3755 2px solid;
-    font-display: block;
-    color: white;
+    border: #1c0449 2px solid;
+    font-weight: bolder;
+    font-family: serif;
+    color: rgb(248, 247, 246);
     border-radius:100px ;
     outline: none;
-    transition: 0.75s;
+    transition: 0.50s;
 }
 
 .name:focus{
@@ -56,15 +56,18 @@ p{
 }
 
 .btn{
-    margin: 20px;
+    margin-top: 7%;
+    margin-bottom: 2%;
     width: 80px;
     height: 35px;
-    border: #0b3755 2px solid;
+    border: #1c0449 2px solid;
     border-radius: 100px;
     background: none;
     outline: none;
     color: white;
+    cursor: pointer;
 }
+
 .btn:hover{
     background-color: chartreuse;
     color: rgb(1, 69, 124);
@@ -73,21 +76,28 @@ p{
 a.forget{
     padding-top: px;
     text-decoration: none;
-    color: #dd8511;
+    color: #fa7304;
     padding: 4px 4px;
+    position: absolute;
+    transform: translate(-50%,25%);
+    font-size: 100%;    
+    font-weight: bolder;
 }
 
 a.forget:hover{
     text-decoration: underline;
-    font-size: 1.01em;
+    font-size: 105%;
 }
 
 .new{
-    font-size: 25px;
+    font-size: 17px;
     text-align: right;
-    color: rgb(252, 153, 6);
+    color: #fa7304;
+    text-align: center;
+    transform: translate(-8%,-25%);
 }
-a.signin{
+
+a.register{
     display: block;
     padding: 5px 5px;
     margin: 10px 10px;
@@ -96,8 +106,10 @@ a.signin{
     color: rgb(231, 230, 245);
     position: relative;
     top: -15px;
+    transform: translate(-25%,-85%);
 }
-a.signin:hover{
+
+a.register:hover{
     font-size: 1.03em;
-    text-decoration: underline;
+    color: aquamarine;    
 }
