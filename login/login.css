@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-position: center;
+    background: url(bgi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-70%);
+
+}
+
+.box{
+    background:rgba(0, 0 ,0 ,0.5);
+    color: #ffffff;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+p{
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: none;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.name{
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    background: none;
+    text-align: center;
+    border:  #0b3755 2px solid;
+    font-display: block;
+    color: white;
+    border-radius:100px ;
+    outline: none;
+    transition: 0.75s;
+}
+
+.name:focus{
+    width: 200px;
+}
+
+.btn{
+    margin: 20px;
+    width: 80px;
+    height: 35px;
+    border: #0b3755 2px solid;
+    border-radius: 100px;
+    background: none;
+    outline: none;
+    color: white;
+}
+.btn:hover{
+    background-color: chartreuse;
+    color: rgb(1, 69, 124);
+}
+
+a.forget{
+    padding-top: px;
+    text-decoration: none;
+    color: #dd8511;
+    padding: 4px 4px;
+}
+
+a.forget:hover{
+    text-decoration: underline;
+    font-size: 1.01em;
+}
+
+.new{
+    font-size: 25px;
+    text-align: right;
+    color: rgb(252, 153, 6);
+}
+a.signin{
+    display: block;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    text-decoration: none;
+    text-align: right;
+    color: rgb(231, 230, 245);
+    position: relative;
+    top: -15px;
+}
+a.signin:hover{
+    font-size: 1.03em;
+    text-decoration: underline;
+}
